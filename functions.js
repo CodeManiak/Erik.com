@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
     $('.circle').hover(function(){
-		$(this).animate({'opacity':'0.5'}, 1);
+		$(this).css({'background':'#1166BB'}, 1);
 	});
 	$('.circle').mouseleave(function(){
-		$(this).animate({'opacity':'1'}, 1);
+		$(this).css({'background':'#444444'}, 1);
 	});
     $('#home').click(function(){
         $('#homeContent').toggle();
