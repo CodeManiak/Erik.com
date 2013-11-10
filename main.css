@@ -1,0 +1,97 @@
+/*****Reset*****/  
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,  
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; } 
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+ 
+h1{
+	font: 170% verdana, serif;
+}
+
+h3{
+	font: 130% verdana, serif;
+	color: #444444;
+    text-align: center;
+}
+
+body{
+	background-color: #0A3A6A;
+}
+.Main{
+    display: none;
+    height: 1000px;
+    background: #777777;
+    margin: 5px;
+}
+#wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 1200px;
+    background: #999999;
+}
+/*****Header*****/  
+#mainHeader{
+    height: 150px;
+    width: 100%;
+    
+    background: #444444;
+    text-align: center;
+    color: #AAAAAA;
+}
+.ContentHeader{
+    font: 600% arial black;
+}
+#leftAside{
+    position: absolute;
+    left: 0;
+    top: 0;
+	width: 200px;
+	height: 800px;
+    display: inline-block;
+	
+}
+
+#content{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    height: 800px;
+    width: 760px;
+    display: inline-block;
+}
+
+#container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+
+}
+#mainContent{
+}
+.circle{
+    height:20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #444444;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.circleText{
+    margin-left: 40px;
+    color: #1166FF;
+    font: 150% arial;
+}
+#didYouKnow{
+    height: 40px;
+    background: #777777;
+    opacity: .8;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font: 140% arial;
+}
+/*****
