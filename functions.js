@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('.circle').hover(function(){
-		$(this).css({'background':'#1166BB'}, 1);
+		$(this).css({'background':'#000077'}, 1);
 	});
 	$('.circle').mouseleave(function(){
 		$(this).css({'background':'#444444'}, 1);
@@ -21,20 +21,7 @@ $(document).ready(function(){
     
     function checkWindowSize() {
 
-        if ( $(window).width() < 600 ) {
-            $('#rightContent').hide();
-            $('#leftAside').hide();
-            $('#topHeader').hide();
-            $('#body').css({'left' : '5%', 'right' : '5%', 'width' : '90%'});
-            $('#leftContent').css({width: '100%', 'right' : '0'});
-        }
-        else {
-            $('#leftAside').show();
-            $('#topHeader').show();
-            $('#rightContent').show();
-            $('#leftContent').css({'right' : '40%', width: '55%'});
-            $('#body').css({'left' : '30%', 'right' :'5%', 'width' : '65%'});
-        }
+   
 
     }
     
