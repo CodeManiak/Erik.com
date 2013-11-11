@@ -26,7 +26,7 @@ body{
     margin: 0 auto;
     width: 100%;
     height: 1200px;
-    min-width: 600px;
+    min-width: 1050px;
     max-width: 1200px;
     
 }
@@ -35,7 +35,7 @@ body{
 #name{
     font-family: 'Fenix', serif;
     font-size: 700%;
-    color: #444444;
+    color: #000077;
     text-align: center;
 }
 
@@ -45,24 +45,21 @@ body{
 }
 
 .circle{
-    height:30px;
-    width: 30px;
+    height:40px;
+    width: 150px;
     border-radius: 15px;
     background: #444444;
-    margin-right: 11%;
+    margin-bottom: 10px;
     display: inline-block;
-}
-
-.circleText{
-    margin-left: 40px;
-    color: #999999;
     font-family: 'Pirata One', cursive;
+    color: #999999;
     font-size: 180%;
+    text-align: center;
+    margin: 5%;
 }
 
 .box{
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 0 auto;
     display: inline;
 }
 
@@ -70,7 +67,7 @@ body{
     height: 40px;
     background: #777777;
     border-radius: 5px;
-    opacity: .5;
+    opacity: .7;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -82,20 +79,22 @@ body{
 .Main{
     display: none;
     height: 1000px;
-    background: #444444;
-    margin: 10px;
+    background: #555555;
+    margin: 20px;
     border-radius: 5px;
-    opacity: .6;
+    opacity: .8;
     padding: 10px;
 }
 
 .Main p{
     font-size: 180%;
-    color: #000000;
+    color: #001144;
     font-family: 'Stint Ultra Condensed', cursive;
+
 }
 .Main h2
 {
-
+    font-size: 120%;
+    color: #000000;
 }
 /*****
