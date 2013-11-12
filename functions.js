@@ -1,27 +1,35 @@
 $(document).ready(function(){
-
     $('.circle').hover(function(){
-		$(this).css({'background':'#000077'}, 1);
+		$(this).css({'background':'#000077'});
 	});
 	$('.circle').mouseleave(function(){
-		$(this).css({'background':'#444444'}, 1);
+		$(this).css({'background':'#444444'});
 	});
-    $('#home').click(function(){
-        $('#homeContent').toggle();
+    $('.circle').click(function()
+    {
+        $(this).toggleClass("active");
+        $(this).css({'background': '#000077'});
+    });
+    $('#about').click(function(){
+        $('#aboutContent').slideToggle();
     });
     $('#resume').click(function(){
-        $('#resumeContent').toggle();
+        $('#resumeContent').slideToggle();
     });
     $('#portfolio').click(function(){
-        $('#portfolioContent').toggle();
+        $('#portfolioContent').slideToggle();
     });
     $('#contact').click(function(){
-        $('#contactContent').toggle();
+        $('#contactContent').slideToggle();
+    });
+    $('#blog').click(function(){
+        $('#blogContent').slideToggle();
+    });
+     $('#music').click(function(){
+        $('#musicContent').slideToggle();
     });
     
     function checkWindowSize() {
-
-   
 
     }
     

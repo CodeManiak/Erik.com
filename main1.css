@@ -1,0 +1,100 @@
+/*****Reset*****/  
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,  
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; } 
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+ 
+h1{
+	font: 170% verdana, serif;
+}
+
+h3{
+	font: 130% verdana, serif;
+	color: #444444;
+    text-align: center;
+}
+
+body{
+    
+	background-image:url('https://dl.dropboxusercontent.com/s/k6xatwr9a08xues/squairy_light.png');
+}
+
+#wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 1200px;
+    min-width: 1050px;
+    max-width: 1200px;
+    
+}
+
+/*****Header*****/
+#name{
+    font-family: 'Fenix', serif;
+    font-size: 700%;
+    color: #000077;
+    text-align: center;
+}
+
+#container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.circle{
+    height:40px;
+    width: 150px;
+    border-radius: 15px;
+    background: #444444;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-family: 'Pirata One', cursive;
+    color: #999999;
+    font-size: 180%;
+    text-align: center;
+    margin: 5%;
+}
+
+.box{
+    margin: 0 auto;
+    display: inline;
+}
+
+#didYouKnow{
+    height: 40px;
+    background: #777777;
+    border-radius: 5px;
+    opacity: .7;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 180%;
+    color: #000000;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.Main{
+    display: none;
+    height: 1000px;
+    background: #555555;
+    margin: 20px;
+    border-radius: 5px;
+    opacity: .8;
+    padding: 10px;
+}
+
+.Main p{
+    font-size: 180%;
+    color: #001144;
+    font-family: 'Stint Ultra Condensed', cursive;
+
+}
+.Main h2
+{
+    font-size: 120%;
+    color: #000000;
+}
+/*****
