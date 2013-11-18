@@ -1,4 +1,13 @@
 $(document).ready(function(){
+    // These events take care of the background animation on the buttons
+    $('#createAccountText').click(function(){
+        $('#regForm').fadeToggle();
+        $('#regForm').css({'display' : 'inline'});
+    });
+    $('#loginText').click(function(){
+        $('#loginForm').fadeToggle();
+        $('#loginForm').css({'display' : 'inline'});
+    });
     $('.circle').hover(function(){
 		$(this).css({'background':'#000077'});
 	});
@@ -10,6 +19,13 @@ $(document).ready(function(){
         $(this).toggleClass("active");
         $(this).css({'background': '#000077'});
     });
+    $('.accountText').hover(function(){
+        $(this).css({'color':'#000077'});
+    });
+    $('.accountText').mouseleave(function(){
+        $(this).css({'color':'#444444'});
+    });
+    // All of the below functions handle slide toggling. There are n slide toggle commands for n buttons
     $('#about').click(function(){
         $('#aboutContent').slideToggle();
     });
@@ -28,12 +44,5 @@ $(document).ready(function(){
      $('#music').click(function(){
         $('#musicContent').slideToggle();
     });
-    
-    function checkWindowSize() {
-
-    }
-    
-$(window).load(checkWindowSize);
-$(window).resize(checkWindowSize);
    
 });

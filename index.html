@@ -13,82 +13,104 @@
         <link href='http://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
         <script src="scripts/jquery.fittext.js"></script>
         <script src="functions.js"></script>
+        <script type="text/javascript" src="sha512.js"></script>
+        <script type="text/javascript" src="forms.js"></script>
     </head>
     <body>
+        <!-- Wrapper -->
         <div id="wrapper">
+            <!-- Header -->
             <header id="mainHeader">
                 <h1 id="name">Erik Mellum</h1>
             </header>
+            <!-- Content -->
             <section id="content">
+                <!-- Top Nav -->
                 <nav id="topNav">
+                    <!-- Top Buttons -->
                     <div class="box">
+                        <!-- About Button -->
                         <div id="about" class="circle">
                             <span class="circleText">About</span>
                         </div>
                     </div>
                     <div class="box">
+                        <!-- Resume Button -->
                        <div id="resume" class="circle">
                             <span class="circleText">Resume</span>
                         </div>
                     </div>
                     <div class="box">
+                        <!-- Portfolio Button -->
                         <div id="portfolio" class="circle">
                             <span class="circleText">Portfolio</span>
                         </div>
                     </div>
                     <div class="box">
+                        <!-- Contact Button -->
                         <div id="contact" class="circle">
                             <span class="circleText">Contact</span>
                         </div>
                     </div>
                     <div class="box">
+                        <!-- Blog Button -->
                         <div id="blog" class="circle">
                             <span class="circleText">Blog</span>
                         </div>
                     </div>
                     
                 </nav>
+                <!-- Did you Know -->
                 <div id="didYouKnow">
                     Did you know...?
                 </div>
+                <!-- Home is visible on arrival -->
                 <div id="homeContent" class="Main">
                     <h2>Welcome!</h2>
                     <p>Hello guest, I'm Erik! You can begin to get to know me by browsing my website. View my professional work in the Portfolio section, and feel free to contact me anytime. </p>
                 </div>
+                <!-- About Content is shown once the about button is clicked -->
                 <div id="aboutContent" class="Main">
                     <h2>About</h2>
                     <p>So you want to know about me? Well I'm 22 years old, and I'm a student at Chico State in Northern California. Professionally I am pursuing Web Development and Game Design. I have unlimited curiousity which results in a wide range of hobbies. Particularly I enjoy playing music and doing outdoor activities in my free time. I am engaged and excited to marry Kyrstan Zachary and one of our favorite activities is to take our lab puppy to the park. I love all animals and I will probably live on a farm in 10 years. If you havn't been sufficiently scared off by this point then you probably are worth getting to know in my book. As Dr. Seuss says: <q>Be who you are and say what you feel, 
 because those who mind don't matter, and those who matter don't mind.</q></p>
                     <div class="box">
+                        <!-- Music Button -->
                         <div id="music" class="circle">
                             <span class="circleText">Music</span>
                         </div>
                     </div>
                     <div class="box">
+                        <!-- Nature Button -->
                        <div id="nature" class="circle">
                             <span class="circleText">Nature</span>
                         </div>
                     </div>
                     <div class="box">
-                        <div id="adrenaline" class="circle">
+                        <!-- Sports Button -->
+                        <div id="sports" class="circle">
                             <span class="circleText">Sports</span>
                         </div>
                     </div>
                     <div class="box">
-                        <div id="relaxation" class="circle">
+                        <!-- Design Button -->
+                        <div id="design" class="circle">
                             <span class="circleText">Design</span>
                         </div>
                     </div>
                     <div class="box">
-                        <div id="fun" class="circle">
+                        <!-- Games Button -->
+                        <div id="games" class="circle">
                             <span class="circleText">Games</span>
                         </div>
                     </div>
+                    <!-- Music Content is shown once the music button is clicked -->
                     <div id="musicContent" class="SubMain">
                         <h2>Music</h2>
                         <p>I love music. I began playing the drums when I was 18 and got a good foundation in rhythm. After my drumming experience I began playing guitar and piano. Piano has been a side hobby for me in the last couple of years with guitar taking the majority of my free time. I use <a href="http://www.justinguitar.com">Justin Guitar</a> to teach myself to play. </p>
                     </div>
                 </div>
+                <!-- Resume Content is shown once the resume button is clicked-->
                 <div id="resumeContent" class="Main">
                     <hr>
                     <h2>Erik Mellum's Resume</h2>
@@ -147,7 +169,9 @@ because those who mind don't matter, and those who matter don't mind.</q></p>
                    <hr>
                     </p>
                 </div>
+                <!-- Portfolio Content is shown once the portfolio button is clicked-->
                 <div id="portfolioContent" class="Main">
+                    <!-- Dynamic Portfolio posts should be retrieved and displayed here-->
                     <div id="portfolioPostOne" class="PortfolioPost">
                         <h2>Hashtable</h2>
                         <p>Date: 11/11/13<br> Tags: C++<br> Author: Erik Mellum<br><br>
@@ -164,31 +188,32 @@ because those who mind don't matter, and those who matter don't mind.</q></p>
                             This is a Doubly Linked List written and implemented in C++. You can view the results and code by downloading <a href="DLList.zip" target="_blank">here</a>. You can also view the code on <a href="http://www.github.com/codemaniak/dllist">GitHub</a>.</p>
                     </div>
                 </div>
+                <!-- Contact Content is shown once the contact button is clicked-->
                 <div id="contactContent" class="Main">
                     <h2>Contact</h2>
                     <p>You can reach me at any time by email <a href="mailto:mellum.erik@gmail.com">here</a> or you can submit the form below to contact me. You can also view my work on the networks below:</p>
                     <div class="box">
-                        <div id="music" class="circle">
+                        <div id="git" class="circle">
                             <span class="circleText"><a href="http://www.github.com/codemaniak">Github</a></span>
                         </div>
                     </div>
                     <div class="box">
-                       <div id="nature" class="circle">
+                       <div id="linkedin" class="circle">
                             <span class="circleText"><a href="http://www.linkedin.com/pub/erik-mellum/44/971/89b">LinkedIn</a></span>
                         </div>
                     </div>
                     <div class="box">
-                        <div id="adrenaline" class="circle">
+                        <div id="visualize" class="circle">
                             <span class="circleText"><a href="http://vizualize.me/CodeManiak">Visualize</a></span>
                         </div>
                     </div>
                     <div class="box">
-                        <div id="relaxation" class="circle">
+                        <div id="facebook" class="circle">
                             <span class="circleText"><a href="https://www.facebook.com/erik.mellum.5">Facebook</a></span>
                         </div>
                     </div>
                     <div class="box">
-                        <div id="fun" class="circle">
+                        <div id="compilr" class="circle">
                             <span class="circleText"><a href="https://compilr.com/codemaniak">Compilr</a></span>
                         </div>
                     </div>
@@ -197,7 +222,9 @@ because those who mind don't matter, and those who matter don't mind.</q></p>
                     
                     
                 </div>
+                <!-- Blog Content is shown once the blog button is clicked-->
                 <div id="blogContent" class="Main">
+                    <!-- Dynamic Blog posts should be retrieved and displayed here-->
                     <div id="blogPostOne" class="BlogPost">
                         <h2>Welcome to the site launch!</h2>
                         <p>11/11/13: Well well well! This is an exciting moment. The launch of the website. There are many ideas to be had and projects tend to go spiraling out of control. It's part of being human. But the good news is that progress no matter how small is progress! So with that, welcome to the up and running website! I hope there are many more updates to come! 
